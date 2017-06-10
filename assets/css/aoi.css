@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body, input, select, textarea {
+    font-family: "Source Code Pro", Helvetica, sans-serif;
+}
+
+#banner:after {
+    transition-delay: 0.3s;
+    opacity: 0.7;
+}
+
+#banner:after > .inner {
+    opacity: 1.0;
+}
+
