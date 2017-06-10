@@ -6,10 +6,12 @@ body, input, select, textarea {
 
 #banner:after {
     transition-delay: 0.3s;
-    opacity: 0.7;
 }
 
-#banner:after > .inner {
-    opacity: 1.0;
+body.is-mobile.landing #banner,
+body.is-mobile.landing .wrapper.style4 {
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/banner.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/banner.jpg");
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/banner.jpg");
+  background-image: linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/banner.jpg");
 }
-
