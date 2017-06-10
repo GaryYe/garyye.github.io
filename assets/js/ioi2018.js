@@ -38,19 +38,6 @@ AmCharts.makeChart("map",{
                 ],
                 "arrow": "none",
                 "arrowSize": 19.799999999999997
-            },
-            {
-                "selectable": true,
-                "color": "rgba(138,216,75,0.8)",
-                "longitudes": [
-                    157.4699,
-                    152.5244
-                ],
-                "latitudes": [
-                    63.861,
-                    61.8751
-                ],
-                "arrow": "none"
             }
         ]
     },

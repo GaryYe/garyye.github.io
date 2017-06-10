@@ -74,133 +74,8 @@
 				<!-- Two -->
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
-							<div class="image">
-								<head>
-									<title>map created with amCharts | amCharts</title>
-									<meta name="description" content="map created using amCharts pixel map generator" />
 
-									<!--
-                                        This map was created using Pixel Map Generator by amCharts and is licensed under the Creative Commons Attribution 4.0 International License.
-                                        You may use this map the way you see fit as long as proper attribution to the name of amCharts is given in the form of link to https://pixelmap.amcharts.com/
-                                        To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
-
-                                        If you would like to use this map without any attribution, you can acquire a commercial license for the JavaScript Maps - a tool that was used to produce this map.
-                                        To do so, visit amCharts Online Store: https://www.amcharts.com/online-store/
-                                    -->
-
-									<!-- amCharts javascript sources -->
-									<script type="text/javascript" src="https://www.amcharts.com/lib/3/ammap.js"></script>
-									<script type="text/javascript" src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
-
-									<!-- amCharts javascript code -->
-									<script type="text/javascript">
-                                        AmCharts.makeChart("map",{
-                                            "type": "map",
-                                            "pathToImages": "http://www.amcharts.com/lib/3/images/",
-                                            "addClassNames": true,
-                                            "fontSize": 15,
-                                            "color": "#FFFFFF",
-                                            "projection": "mercator",
-                                            "backgroundAlpha": 1,
-                                            "backgroundColor": "rgba(80,80,80,1)",
-                                            "dataProvider": {
-                                                "map": "worldLow",
-                                                "getAreasFromMap": true,
-                                                "images": [
-                                                    {
-                                                        "top": 40,
-                                                        "left": 60,
-                                                        "width": 80,
-                                                        "height": 40,
-                                                        "pixelMapperLogo": true,
-                                                        "imageURL": "http://pixelmap.amcharts.com/static/img/logo.svg",
-                                                        "url": "http://www.amcharts.com"
-                                                    }
-                                                ],
-                                                "lines": [
-                                                    {
-                                                        "arc": -0.76,
-                                                        "selectable": true,
-                                                        "color": "rgba(57,61,82,1)",
-                                                        "thickness": 3.3,
-                                                        "dashLength": 0,
-                                                        "longitudes": [
-                                                            15.135,
-                                                            139.4971
-                                                        ],
-                                                        "latitudes": [
-                                                            48.1717,
-                                                            36.4111
-                                                        ],
-                                                        "arrow": "none",
-                                                        "arrowSize": 19.799999999999997
-                                                    },
-                                                    {
-                                                        "selectable": true,
-                                                        "color": "rgba(138,216,75,0.8)",
-                                                        "longitudes": [
-                                                            157.4699,
-                                                            152.5244
-                                                        ],
-                                                        "latitudes": [
-                                                            63.861,
-                                                            61.8751
-                                                        ],
-                                                        "arrow": "none"
-                                                    }
-                                                ]
-                                            },
-                                            "balloon": {
-                                                "horizontalPadding": 15,
-                                                "borderAlpha": 0,
-                                                "borderThickness": 1,
-                                                "verticalPadding": 15
-                                            },
-                                            "areasSettings": {
-                                                "color": "rgba(129,129,129,1)",
-                                                "outlineColor": "rgba(80,80,80,1)",
-                                                "rollOverOutlineColor": "rgba(80,80,80,1)",
-                                                "rollOverBrightness": 20,
-                                                "selectedBrightness": 20,
-                                                "selectable": true,
-                                                "unlistedAreasAlpha": 0,
-                                                "unlistedAreasOutlineAlpha": 0
-                                            },
-                                            "imagesSettings": {
-                                                "alpha": 1,
-                                                "color": "rgba(129,129,129,1)",
-                                                "outlineAlpha": 0,
-                                                "rollOverOutlineAlpha": 0,
-                                                "outlineColor": "rgba(80,80,80,1)",
-                                                "rollOverBrightness": 20,
-                                                "selectedBrightness": 20,
-                                                "selectable": true
-                                            },
-                                            "linesSettings": {
-                                                "color": "rgba(129,129,129,1)",
-                                                "selectable": true,
-                                                "rollOverBrightness": 20,
-                                                "selectedBrightness": 20
-                                            },
-                                            "zoomControl": {
-                                                "zoomControlEnabled": true,
-                                                "homeButtonEnabled": false,
-                                                "panControlEnabled": false,
-                                                "right": 38,
-                                                "bottom": 30,
-                                                "minZoomLevel": 0.25,
-                                                "gridHeight": 100,
-                                                "gridAlpha": 0.1,
-                                                "gridBackgroundAlpha": 0,
-                                                "gridColor": "#FFFFFF",
-                                                "draggerAlpha": 1,
-                                                "buttonCornerRadius": 2
-                                            }
-                                        });
-									</script>
-								</head>
-								<div id="map" style="width: 100%; height: 963px;"></div>
-							</div>
+							<div class="image" id="map" style="width: 100%; height: 400px;"></div>
 							<div class="content">
 								<h2>IOI 2018 in Japan<br /></h2>
 								<p>Letztes Jahr war die IOI in Iran, dieses Jahr geht es ab nach Japan.</p>
@@ -275,5 +150,6 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
+            <script type="text/javascript" src="assets/js/ioi2018.js"></script>
 	</body>
 </html>
